@@ -1,0 +1,55 @@
+.navigation{
+    margin-top: 20px;
+    padding: 0 300px ;
+    height: 100px;
+    width:auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.logo{
+    margin-left: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    margin-left: 150px;
+   
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.links ul li{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: large;
+    font-style: oblique;
+    color: white;
+    }
+    .links ul li:hover{
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size:larger;
+        font-style: oblique;
+        color: white;
+        }
+    #contact{
+        background-color: aliceblue;
+        color: rgb(16, 87, 150);
+        height: auto;
+        width: 70px;
+        border-radius: 30px;
+    }
+    #contact:hover{
+        background-color: rgb(15, 62, 104);
+        color: rgb(191, 211, 228);
+        height: auto;
+        width: 75px;
+        border-radius: 30px;
+    }

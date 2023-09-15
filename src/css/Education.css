@@ -1,0 +1,44 @@
+.education{
+padding: 200px;
+justify-content: center;
+align-items: center;
+    background-image: linear-gradient(#1A5F7A,#159895);
+}
+.knowledge-section{
+    height: 800px;
+    margin: 100px 50px 100px 50px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+     border: 1px solid black;
+     background-color: white;
+}
+.Designer-section{
+   border: 1px solid black;
+   width: 400px;
+   padding-top: 50px;
+}
+
+.language-section{
+    border: 1px solid black;
+    width: 400px;
+    
+    padding: 10, 10px;
+
+}
+#icon_education{
+    background-color:aqua ;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 40px;
+}
+#education_head{
+    font-size: 30px;
+}
+#head-known{
+color: blue;
+}
+#head-tool{
+    color: blue;
+}

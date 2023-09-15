@@ -1,0 +1,90 @@
+.footer{
+    height: max-content;
+    color: whitesmoke;
+    background-image: linear-gradient(white, #1A5F7A);
+}
+.footer-contact{
+    top: 20px;
+    margin: 0px 100px;
+    height: 200px;
+    background-color: #73cfc3;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+   
+}
+.footer-contact h1{
+    font-size: 50px;
+}
+.footer-contact p{
+    font-size: 20px;
+}
+.footer-contact button{
+    height:50px ;
+    width: auto;
+    font-size: 30px;
+    color: #002B5B;
+    border: 2px solid #73cfc3;
+    border-radius: 20px;
+    background-color:white;
+}
+.footer-contact button:hover{
+    height:50px ;
+    width: auto;
+    color: white;
+    font-size: 32px;
+    color: #002B5B;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:#73cfc3;
+}
+.footer img{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+}
+.footer h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.footer ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.footer ul li{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+
+}
+.footer ul li:hover{
+    overflow-y: hidden;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+
+}
+.footer p{
+    font-size: 20px;
+}
+#react{
+    font-size: 30px;
+    font-weight: bold;
+}
+#name{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#name:hover{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 500;
+}
