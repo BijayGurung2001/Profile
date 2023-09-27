@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Footer.css'
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaReact } from 'react-icons/fa'
-
+import logo from '../image/2.png'
 const Footer = () => {
   return (
     <div className='footer'>
@@ -10,15 +10,15 @@ const Footer = () => {
         <p>Interested in working together?<br/>We should queue up a time to <br/> chat. I’ll buy the coffee.</p>
         <button>Let's do this</button>
      </div>
-     <img src="https://mattfarley.ca/img/mf-avatar.svg" alt="aaaaaaaa" />
+     <img src={logo} alt="aaaaaaaa" />
      <h2>Living, learning, & leveling up <br/>
      one day at a time.</h2>
      <ul className='footer-link-list'>
-        <li><FaGithub/></li>
+        <li><a href='https://github.com/BijayGurung2001'><FaGithub/></a></li>
         <li><FaMailBulk/></li>
-        <li><FaFacebook/></li>
-        <li><FaInstagram/></li>
-        <li><FaLinkedin/></li>
+        <li><a href='https://www.facebook.com/bijay.gurung.1614/'><FaFacebook/></a></li>
+        <li><a href='https://www.instagram.com/bijay_gurung09/'><FaInstagram/></a></li>
+        <li><a href='https://www.linkedin.com/in/bijay-gurung-9b51501a3/'><FaLinkedin/></a></li>
      </ul>
      <p>Handcrafted by <spam id='name'>Bijay Gurung </spam> </p>
      <p>Made with <spam id="react"> <FaReact/> React Js</spam></p>

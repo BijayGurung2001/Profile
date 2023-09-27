@@ -22,17 +22,18 @@
     border-radius: 30px;
     color: white;
     font-size: 20px;
+    padding: 5px;
 }
 #button_icon{
     margin-right:10px;
 }
 .work button:hover{
-    background-color:#f9fbfd ;
-    border: 1px solid white;
+    background-color:#3684d1 ;
+    border: 1px solid 3684d1;
     height: 50px;
     width: auto;
     border-radius: 30px;
-    color: #002B5B ;
+    color: white ;
     font-size: 20px;
 }
 

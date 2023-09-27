@@ -1,44 +1,59 @@
 .education{
-padding: 200px;
+height: 165vh;
+padding: 0px 100px;
 justify-content: center;
 align-items: center;
     background-image: linear-gradient(#1A5F7A,#159895);
 }
 .knowledge-section{
+   top: 250px;
+    position: relative;
     height: 800px;
     margin: 100px 50px 100px 50px;
     width: fit-content;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+   flex-direction: row;
     border-radius: 30px;
-     border: 1px solid black;
+     border: 3px solid rgb(27, 24, 24);
      background-color: white;
+   
 }
 .Designer-section{
    border: 1px solid black;
    width: 400px;
    padding-top: 50px;
+ 
+  
 }
 
 .language-section{
     border: 1px solid black;
     width: 400px;
+    padding-top: 50px;
     
-    padding: 10, 10px;
+    
 
 }
 #icon_education{
-    background-color:aqua ;
+    background-color:rgb(93, 161, 238) ;
     border-radius: 50%;
     padding: 10px;
-    font-size: 40px;
+    font-size: 20px;
 }
+
 #education_head{
+    padding-top: 0px;
     font-size: 30px;
 }
 #head-known{
+    top: 0;
 color: blue;
 }
 #head-tool{
+    top: 0;
     color: blue;
+}
+ul li{
+    list-style: none;
 }

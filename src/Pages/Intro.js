@@ -1,7 +1,7 @@
 import React  from 'react'
 
 import '../css/Intro.css'
-import '../image/bj.png'
+import profile from '../image/bj.png'
 
 const Intro = () => {
     
@@ -13,7 +13,7 @@ const Intro = () => {
           <p id='details'>A Full Stack web developer and content creator based in the Nepal.</p>
         </div>
         <div className='intro-img'>
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small/3d-website-developer-working-on-laptop-illustration-png.png" alt='profilepic'/>
+            <img src={profile} alt='profilepic'/>
         </div>
     </div>
   )

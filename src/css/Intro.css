@@ -34,7 +34,9 @@
     font-size: 30px;
 }
 .intro-img{
-    margin-left: 10px;
+    height: 50vh;
+    border-radius: 50%;
+    overflow: hidden;
      
 }
 .intro-img img{
