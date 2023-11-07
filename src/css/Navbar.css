@@ -8,6 +8,8 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content:center ;
+    align-items: center;
  
 }
 .logo{
@@ -23,33 +25,39 @@
 .links ul{
     display: flex;
     flex-direction: row;
+    list-style: none;
     
 }
-.links ul li{
+li{
+    list-style: none;
+}
+ #link{
     margin-left: 20px;
     margin-top: 15px;
     font-size: large;
     font-style: oblique;
     color: white;
+    list-style: none;
     }
-    .links ul li:hover{
+   #link:hover{
         margin-left: 20px;
         margin-top: 15px;
         font-size:larger;
         font-style: oblique;
-        color: white;
+        color: rgb(202, 198, 198);
         }
     #contact{
         background-color: aliceblue;
-        color: rgb(16, 87, 150);
-        height: auto;
-        width: 70px;
+        margin-left: 20px;
+        color: rgb(2, 3, 5);
+        height: 40px;
+        width:max-content;
         border-radius: 30px;
     }
     #contact:hover{
         background-color: rgb(15, 62, 104);
         color: rgb(191, 211, 228);
         height: auto;
-        width: 75px;
+        
         border-radius: 30px;
     }

@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h10{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  
+}
+h1, h2{
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+li{
+  font-size: 16px;
+}
+@media (max-width:786px){
+  h1, h2{
+    font-size: 8px;
+  }
+  p{
+    font-size: 6px;
+  }
+  li{
+    font-size: 6px;
+  }
+  h10{
+    font-size: 1rem;
+  }
+  button{
+height: 10px;
+width: fit-content;
+font-size:medium ;
+  }
+}

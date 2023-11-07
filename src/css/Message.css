@@ -7,9 +7,9 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-}
+    }
 .form{
-   height: 50vh;
+   height: 55vh;
    width: 50%;
    padding-left: 150px;
 }
@@ -17,7 +17,7 @@ tr{
     padding: 20px;
 }
 .font{
-    font-size: 50px;
+    font-size: 20px;
 }
 .button{
     font-size: 30px;
@@ -59,7 +59,7 @@ textarea{
 }
 #submit{
     position: relative;
-    width: 100px;
+    width: 10rem;
     height: max-content;
     background-color: rgb(58, 134, 201);
     color: white;
@@ -68,7 +68,7 @@ textarea{
 }
 #submit:hover{
     position: relative;
-    width: 100px;
+    width: 10.5rem;
     height: max-content;
     background-color: rgb(24, 50, 73);
     color: white;
@@ -77,12 +77,33 @@ textarea{
 }
 .content{
     height: 50vh;
-   width: 40%;
-   margin-left: 30px;
+   width: 30%;
+   margin-left: 10px;
    object-fit: contain;
 }
 #messageimage{
-    height: 48vh;
+    height: 35vh;
     width: fit-content;
     
 }
+@media  (max-width: 768px){
+.message{
+    
+    height: 80vh;
+    flex-direction: column-reverse;
+}
+#messageimage{
+    height: 100px;
+    width: 100px;
+}
+.font{
+font-size: 16px;
+}
+.form{
+    height: inherit;
+}
+.content{
+    height: 150px;
+}
+}
+    

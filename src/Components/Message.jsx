@@ -1,15 +1,20 @@
-import React, { useRef } from 'react'
+import React, {  useState } from 'react'
 import emailjs from '@emailjs/browser';
 import '../css/Message.css';
 import messagepic from '../image/message.png';
 
+
 const Message = () => {
+const[data, setData]=useState({})
 
-const form =useRef();
-
-const SendEmail=(e)=>{
+const handleinput=(e)=>{
     e.preventDefault();
-    emailjs.sendForm('service_c94uumm','template_6c1s4xo',form.current,'sGSHCzrDYZ7Eign2W')
+    setData({...data,[e.target.name]: e.target.value})
+}
+const SendEmail=()=>{
+    
+
+    emailjs.sendForm('service_c94uumm','template_6c1s4xo',data.current,'sGSHCzrDYZ7Eign2W')
     .then((result)=>{
         console.log(result.text);
     },(error)=>{
@@ -19,23 +24,23 @@ const SendEmail=(e)=>{
 };
 
   return (
-    <>
+  
     <div className='message'>
-<form ref={form} onSubmit={SendEmail} className='form'>
+<form  onSubmit={SendEmail} className='form'>
     <h1 id='headline'>Contact Me</h1>
     <tr>
-        <td><label id='name' className='font'>Full Name:</label></td>
+        <td><label name='name' className='font' onChange={handleinput}>Full Name:</label></td>
         <td><input type='text' name='name'  /><br/></td>
     </tr>
     <tr>
-        <td><label id='email'className='font'>Email:</label></td>
+        <td><label name='email'className='font' onChange={handleinput}>Email:</label></td>
         <td><input type='email' name='email'  /></td>
     </tr>
     <tr>
-        <td><label id='message'className='font'>Message: </label></td>
+        <td><label message='message'className='font' onChange={handleinput}>Message: </label></td>
         <td><textarea name='message' /><br/></td>
     </tr>
-                <input type='submit' value='send' id='submit'/>
+                <input type='submit'  id='submit'/>
        
 </form>
 <div className='content'>
@@ -44,8 +49,8 @@ const SendEmail=(e)=>{
 
     </div>
 
-    </>
+ 
   )
 }
 
-export default Message
+export default Message;

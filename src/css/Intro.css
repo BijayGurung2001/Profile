@@ -1,46 +1,94 @@
-.intro{
+
+    .intro{
    
-    padding: 70px 0 50px 0;
-    height: 75vh;
-    width: 100%;
-    background-image: linear-gradient(#002B5B,#1A5F7A);
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden;
-    color: white;
-   
-}
-.intro-details{
-    width: fit-content;
-    margin: 20px 5px ;
-}
-.intro-details h1{
-    font-style: italic;
-    font-size: 40px;
+        padding: 70px 0 50px 0;
+        height: 68.5vh;
+        width: 100%;
+        background-image: linear-gradient(#002B5B,#1A5F7A);
+              position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        color: white;
+        
+       
+    }
+    .intro-details{
+        width: fit-content;
+        margin: 20px 5px ;
+    }
+    .intro-details h1{
+        font-style: italic;
+        font-size: 40px;
+    }
+    
+    .tracking-out-contract{
+        margin-top:0;
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+       
+    }
+    #details{
+        font-style: italic;
+        font-size: 30px;
+    }
+    .intro-img{
+        height: 50vh;
+        border-radius: 50%;
+        overflow: hidden;
+         
+    }
+    #resumebutton, #connectbutton{
+        margin: 0 1.5rem;
+        height: max-content;
+        width: fit-content;
+        padding: 1rem;
+        border-radius: 2rem;
+    
+    }
+    .intro-img img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+      
+    }
+@media (max-width:786px){
+    .intro{
+        padding-top: 5rem;
+        height: 111vh;
+        flex-direction:column-reverse;
+    }
+    .intro-details {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    
+      .intro-img {
+        text-align: center;
+      }
+    
+      .tracking-out-contract {
+        font-size: 1.5rem;
+      }
+    
+      #details {
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+    
+  .intro-img img{
+    height: 10rem;
+    width: 10rem;
+    
+  }
+  
+  .intro-details h1{
+font-size: 20px;
+  }
 }
 
-.tracking-out-contract{
-    margin-top:0;
-    font-size: 50px;
-    font-weight: 600;
-    color: white;
-   
-}
-#details{
-    font-style: italic;
-    font-size: 30px;
-}
-.intro-img{
-    height: 50vh;
-    border-radius: 50%;
-    overflow: hidden;
-     
-}
-.intro-img img{
-    height: 500px;
-    width: 500px;
-  
-}
+
+

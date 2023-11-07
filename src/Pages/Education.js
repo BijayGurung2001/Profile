@@ -4,6 +4,7 @@ import {FaPhotoVideo, FaDev} from 'react-icons/fa'
 const Education = () => {
   return (
     <div className='education'>
+      
  <div className='knowledge-section'>
       <div className='Designer-section'>
           <spam id='icon_education'><FaPhotoVideo/></spam>
@@ -31,7 +32,7 @@ const Education = () => {
             <li>Webflow</li>
           </ul>
       </div>
-      <div className='language-section'>
+      <div className='Designer-section'>
       <spam id='icon_education'><FaDev/></spam>
           <h1 id='education_head'>Frontend Development</h1>
           <br/>
@@ -57,7 +58,7 @@ const Education = () => {
             <li>vercel</li>
           </ul>
       </div>
-      <div className='language-section'>
+      <div className='Designer-section'>
       <spam id='icon_education'><FaDev/></spam>
           <h1 id='education_head'>Backend Development</h1>
           <br/>

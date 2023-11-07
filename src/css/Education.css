@@ -1,40 +1,35 @@
 .education{
-height: 165vh;
-padding: 0px 100px;
-justify-content: center;
+    margin-top: 0;
+    padding-top: 2rem;
+height: 120vh;
+display: flex;
+flex-direction: column;
 align-items: center;
+justify-content: center;
+
     background-image: linear-gradient(#1A5F7A,#159895);
 }
 .knowledge-section{
-   top: 250px;
-    position: relative;
-    height: 800px;
-    margin: 100px 50px 100px 50px;
-    width: fit-content;
+
+ overflow-y: hidden;
+    height: 120vh;
+          width: 80%;
     display: flex;
-    justify-content: center;
+     justify-content: center;
    flex-direction: row;
     border-radius: 30px;
-     border: 3px solid rgb(27, 24, 24);
+     border: 2px solid rgb(37, 37, 37);
      background-color: white;
    
 }
 .Designer-section{
-   border: 1px solid black;
+  border: 3px solid black;
    width: 400px;
-   padding-top: 50px;
+   padding-top: 5px;
  
   
 }
 
-.language-section{
-    border: 1px solid black;
-    width: 400px;
-    padding-top: 50px;
-    
-    
-
-}
 #icon_education{
     background-color:rgb(93, 161, 238) ;
     border-radius: 50%;
@@ -51,9 +46,35 @@ align-items: center;
 color: blue;
 }
 #head-tool{
-    top: 0;
+    margin-top: 0;
     color: blue;
 }
 ul li{
     list-style: none;
 }
+@media (max-width: 786px) {
+    .education{
+       margin-top: 8rem;
+       
+        height: 80vh;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .knowledge-section{
+        width: fit-content;
+       
+    }
+    .Designer-section  {
+         width: 35%;
+    }
+    #education_head{
+        font-size: 15px;
+    }
+   .language-section{
+    width: 30%;
+   }
+  }
+  
+  

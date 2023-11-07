@@ -6,7 +6,7 @@ import {FaEye} from 'react-icons/fa'
 const Work = () => {
   return (
     <div className='work'>
-      <h1>My Recent Work</h1>
+      <h10>My Recent Work</h10>
       <p>Here are a few past design projects I've worked on. Want to see more? <spam>Email me.</spam></p>
       <div className='project-container'>
         {Projectdata.map((data)=>{
