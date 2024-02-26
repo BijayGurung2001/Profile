@@ -4,7 +4,7 @@
         padding: 70px 0 50px 0;
         height: 68.5vh;
         width: 100%;
-        background-image: linear-gradient(#002B5B,#1A5F7A);
+        background-image: linear-gradient(hsl(212, 100%, 18%),#1A5F7A);
               position: absolute;
         display: flex;
         flex-direction: row;
@@ -41,11 +41,12 @@
         overflow: hidden;
          
     }
-    #resumebutton, #connectbutton{
+    #resumebutton{
         margin: 0 1.5rem;
         height: max-content;
         width: fit-content;
         padding: 1rem;
+        font-size: 18px;
         border-radius: 2rem;
     
     }
@@ -57,8 +58,8 @@
     }
 @media (max-width:786px){
     .intro{
-        padding-top: 5rem;
-        height: 111vh;
+        padding-top: 0.5rem;
+        height: 81vh;
         flex-direction:column-reverse;
     }
     .intro-details {
@@ -67,9 +68,19 @@
       }
     
       .intro-img {
-        text-align: center;
+               display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
       }
-    
+      #intro-imgone{
+        height: 100px;
+        width: 100px;
+      }
+    #resumebutton{
+      font-size: 12px;
+    }
       .tracking-out-contract {
         font-size: 1.5rem;
       }

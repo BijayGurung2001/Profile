@@ -3,6 +3,9 @@ import '../css/Footer.css'
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMailBulk, FaReact } from 'react-icons/fa'
 import logo from '../image/2.png'
 const Footer = () => {
+  const handlefacebook =()=>{
+    window.location.href='https://www.facebook.com/bijay.gurung.1614/';
+  };
   return (
     <div className='footer'>
      <div className='footer-contact'>
@@ -15,8 +18,8 @@ const Footer = () => {
      one day at a time.</h2>
      <ul className='footer-link-list'>
         <li><a href='https://github.com/BijayGurung2001'><FaGithub/></a></li>
-        <li><FaMailBulk/></li>
-        <li><a href='https://www.facebook.com/bijay.gurung.1614/'><FaFacebook/></a></li>
+        <li><a href='https://mail.google.com/'><FaMailBulk/></a></li>
+        <li onClick={handlefacebook}><FaFacebook/></li>
         <li><a href='https://www.instagram.com/bijay_gurung09/'><FaInstagram/></a></li>
         <li><a href='https://www.linkedin.com/in/bijay-gurung-9b51501a3/'><FaLinkedin/></a></li>
      </ul>

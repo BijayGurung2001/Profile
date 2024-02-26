@@ -43,6 +43,8 @@
     width: 200;
     position: relative;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(3,1fr);
  
 }
@@ -91,7 +93,7 @@
 }
 @media (max-width:786px){
     .work{
-        padding-top: 30px;
+        padding: 5rem;
     }
     .work p{
         margin-top: 5px;
@@ -99,10 +101,13 @@
         
     }
     .project-container{
+       
         margin: 2px 20px;
         height: 200;
         width: 200;
+        
                 display: grid;
+     padding: 0 20%;
         grid-template-columns: repeat(2,1fr);
      
     }
@@ -115,5 +120,8 @@
     .project-img{
            height: 150px;
         width: 150px;
+            }
+            #button_icon{
+                font-size: 12px;
             }
 }

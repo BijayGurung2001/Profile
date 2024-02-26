@@ -24,7 +24,7 @@ const Work = () => {
           )
         })}
          </div>
-      <button><spam id='button_icon'><FaEye/></spam>See more on Projects</button>
+      <button id='button_icon'><spam ><FaEye/></spam>See more on Projects</button>
     </div>
   )
 }
