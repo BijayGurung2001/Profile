@@ -9,9 +9,9 @@ import Footer from './Pages/Footer';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter basename="/Profile">
+     <BrowserRouter basename="/">
      <Routes>
-      <Route exact path='/Profile' element={<Home/>} />
+      <Route exact path='/' element={<Home/>} />
       <Route path='/message' element={<Message/>} />
       <Route path='/testimonial' element={<Testimonial/>} />
       <Route path='/projects' element={<Projects/>} />
