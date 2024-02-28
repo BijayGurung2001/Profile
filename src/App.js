@@ -9,7 +9,7 @@ import Footer from './Pages/Footer';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter basename="/">
+     <BrowserRouter basename="/Profile">
      <Routes>
       <Route exact path='/' element={<Home/>} />
       <Route path='/message' element={<Message/>} />
